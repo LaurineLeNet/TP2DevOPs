@@ -26,7 +26,7 @@ jobs:
         uses: actions/setup-java@v2.3.1
         with:
           java-version: 11
-          distribution: Oracle OpenJDK
+          distribution: OpenJDK
         
       # Finally build your app with the latest command
       - name: Build and test with Maven
