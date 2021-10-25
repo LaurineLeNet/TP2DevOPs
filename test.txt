@@ -1,1 +1,1 @@
-Test pipeline docker hub + push 4
+Test pipeline sonarcloud
