@@ -16,6 +16,12 @@ services:
       - app-network
     env_file:
       - database/.env
+  database:
+   container_name: front
+   build: ./devops-front-main
+   networks:
+     - app-network
+   
 
   httpd:
     container_name: reverse_proxy
